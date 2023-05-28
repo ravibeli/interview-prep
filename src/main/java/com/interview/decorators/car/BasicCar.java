@@ -1,4 +1,4 @@
-package com.interview.designpatterns.decorators.car;
+package com.interview.decorators.car;
 
 
 public class BasicCar implements Car {

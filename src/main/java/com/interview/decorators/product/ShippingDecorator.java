@@ -1,4 +1,4 @@
-package com.interview.designpatterns.decorators.product;
+package com.interview.decorators.product;
 
 class ShippingDecorator extends ProductDecorator {
     public ShippingDecorator(Product decoratedProduct) {

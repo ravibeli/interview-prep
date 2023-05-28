@@ -1,4 +1,4 @@
-package com.interview.designpatterns.decorators.product;
+package com.interview.decorators.product;
 
 // Decorator abstract class
 abstract class ProductDecorator implements Product {

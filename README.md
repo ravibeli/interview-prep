@@ -8,7 +8,7 @@ Explicitly for interview preparation
 
 ![image](https://github.com/ravibeli/interview-prep/assets/928202/2a9f3542-1715-4e7e-bc15-6922f912974d)
 
-**Output:**
+#### Output:
 
 ```> Task :DecoratorPatternTest.main()
 ------------------------------------------------------------------------------------
@@ -17,7 +17,7 @@ Basic Car Feature.
 Basic Car Feature. Adding features of Sports Car.
 ------------------------------------------------------------------------------------
 Basic Car Feature. Adding features of Sports Car. Adding features of Luxury Car.
-------------------------------------------------------------------------------------```
-
+-----------------------------------------------------------------------------------
+```
 
 ### Strategy Pattern

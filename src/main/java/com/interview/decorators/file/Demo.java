@@ -1,4 +1,4 @@
-package com.interview.designpatterns.decorators.file;
+package com.interview.decorators.file;
 
 public class Demo {
     public static void main(String[] args) {

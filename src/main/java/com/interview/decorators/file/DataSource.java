@@ -1,4 +1,4 @@
-package com.interview.designpatterns.decorators.file;
+package com.interview.decorators.file;
 
 import java.io.IOException;
 
