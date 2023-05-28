@@ -1,4 +1,4 @@
-package com.hg.interview.faq.corejava;
+package com.interview.corejava;
 
 class A {
     private String name = funName();

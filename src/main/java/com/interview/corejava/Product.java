@@ -1,4 +1,4 @@
-package com.hg.interview.faq.corejava;
+package com.interview.corejava;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

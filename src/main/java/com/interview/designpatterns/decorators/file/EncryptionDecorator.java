@@ -1,8 +1,11 @@
-package com.hg.interview.faq.designpatterns.decorators;
+package com.interview.designpatterns.decorators.file;
+
+import lombok.extern.slf4j.Slf4j;
 
 import java.util.Base64;
 
-public class EncryptionDecorator extends DataSourceDecorator {
+@Slf4j
+class EncryptionDecorator extends DataSourceDecorator {
 
     public EncryptionDecorator(DataSource source) {
         super(source);

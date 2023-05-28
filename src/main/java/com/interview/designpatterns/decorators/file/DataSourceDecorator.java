@@ -1,12 +1,12 @@
-package com.hg.interview.faq.designpatterns.decorators;
+package com.interview.designpatterns.decorators.file;
 
 import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 
 @Slf4j
-public class DataSourceDecorator implements DataSource {
-    private DataSource dataSource;
+class DataSourceDecorator implements DataSource {
+    private final DataSource dataSource;
 
     DataSourceDecorator(DataSource source) {
         this.dataSource = source;
@@ -17,7 +17,7 @@ public class DataSourceDecorator implements DataSource {
         try {
             dataSource.writeData(data);
         } catch (IOException e) {
-            log.error("Error writing data",e);
+            log.error("Error writing data", e);
         }
     }
 

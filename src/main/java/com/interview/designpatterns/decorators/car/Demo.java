@@ -1,6 +1,6 @@
-package com.hg.interview.faq.designpatterns;
+package com.interview.designpatterns.decorators.car;
 
-public class DecoratorPatternTest {
+public class Demo {
 
     public static void main(String[] args) {
         System.out.println("\n------------------------------------------------------------------------------------");
@@ -19,3 +19,7 @@ public class DecoratorPatternTest {
     }
 
 }
+
+
+
+

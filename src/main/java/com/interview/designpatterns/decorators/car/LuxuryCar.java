@@ -1,4 +1,4 @@
-package com.hg.interview.faq.designpatterns;
+package com.interview.designpatterns.decorators.car;
 
 public class LuxuryCar extends CarDecorator {
 

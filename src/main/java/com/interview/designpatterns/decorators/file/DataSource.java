@@ -1,8 +1,9 @@
-package com.hg.interview.faq.designpatterns.decorators;
+package com.interview.designpatterns.decorators.file;
 
 import java.io.IOException;
 
-public interface DataSource {
+interface DataSource {
     void writeData(String data) throws IOException;
+
     String readData();
 }

@@ -1,12 +1,10 @@
-package com.hg.interview.faq;
+package com.interview;
 
-import com.hg.interview.faq.corejava.Product;
-import org.apache.logging.log4j.util.PropertySource;
+import com.interview.corejava.Product;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @SpringBootApplication
 public class InterviewPrepApplication {

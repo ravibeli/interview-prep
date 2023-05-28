@@ -1,4 +1,4 @@
-package com.hg.interview.faq.designpatterns.decorators;
+package com.interview.designpatterns.decorators.file;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 @Slf4j
-public class FileDataSource implements DataSource {
+class FileDataSource implements DataSource {
     private final String name;
 
     public FileDataSource(String name) {
@@ -37,7 +37,7 @@ public class FileDataSource implements DataSource {
             buffer = new char[(int) file.length()];
             reader.read(buffer);
         } catch (IOException e) {
-            log.error("Error writing data",e);
+            log.error("Error writing data", e);
         }
         assert buffer != null;
         return new String(buffer);

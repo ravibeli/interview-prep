@@ -1,12 +1,4 @@
-package com.hg.interview.faq.corejava;
-
-
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
-
+package com.interview.corejava;
 
 
 public class Person {

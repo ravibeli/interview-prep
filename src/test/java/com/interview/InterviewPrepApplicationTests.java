@@ -1,4 +1,4 @@
-package com.hg.interview.faq;
+package com.interview;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

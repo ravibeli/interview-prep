@@ -1,4 +1,4 @@
-package com.hg.interview.faq.designpatterns.decorators;
+package com.interview.designpatterns.decorators.file;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -14,7 +14,7 @@ import java.util.zip.InflaterInputStream;
 
 @Getter
 @Setter
-public class CompressionDecorator extends DataSourceDecorator {
+class CompressionDecorator extends DataSourceDecorator {
     private int compLevel = 6;
 
     public CompressionDecorator(DataSource source) {
