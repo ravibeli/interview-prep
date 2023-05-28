@@ -2,7 +2,7 @@
 Explicitly for interview preparation
 
 ### Car Decorator: Another Example
-1) Basic Car
+1) Basic Car --> Assembles the basic car feature
 2) Sport Car Decorator --> Adds the sports features
 3) Luxury Car Decorator --> Adds the luxury features
 
